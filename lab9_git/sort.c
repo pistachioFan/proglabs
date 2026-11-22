@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//comment
+
 void print_arr(int * arr, short size){
 	for(int i = 0; i < size; i++){
 		printf("%d ", arr[i]);
