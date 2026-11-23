@@ -11,7 +11,7 @@ void print_arr(int * arr, short size){
 }
 
 int main(){
-	int arr[] = {10, -2, 65, 1, 0, -67, 50};
+	int arr[] = {10, -2, 69, 1, 0, -67};
 	print_arr(arr, sizeof(arr) / 4);
 	for(int i = 0; i < sizeof(arr) / 4; i++){
 		for(int k = 1; k < sizeof(arr) / 4; k++){
